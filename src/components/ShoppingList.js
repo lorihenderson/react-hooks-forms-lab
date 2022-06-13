@@ -16,6 +16,12 @@ function ShoppingList({ items }) {
     return item.category === selectedCategory;
   });
 
+function onSearchChange() {
+  const [search, setSearch] = useState("")
+
+  
+}
+
   return (
     <div className="ShoppingList">
       <ItemForm />
